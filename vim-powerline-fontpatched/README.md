@@ -1,4 +1,4 @@
-# プログラミング用フォント Ricty Diminished w/ Powerline patched
+# プログラミング用フォント Ricty Diminished w/ vim-powerline/fontpatcher patched
 
 Ricty Diminished (リクティ・ディミニッシュト) は [Ricty](https://github.com/yascentur/Ricty) の姉妹フォントであり、[Inconsolata](http://levien.com/type/myfonts/inconsolata.html) と [Migu 1M](http://mix-mplus-ipa.sourceforge.jp/) ではなく、[Inconsolata](http://levien.com/type/myfonts/inconsolata.html) と [Circle M+ 1m](http://mix-mplus-ipa.sourceforge.jp/) を Ricty 生成スクリプトで合成したフォントです。
 IPA ゴシックのグリフを含まないため、使用可能な漢字グリフの数が少ない代わり、[SIL Open Font License](http://scripts.sil.org/ofl) の下で配布が可能です。
@@ -19,19 +19,6 @@ IPA ゴシックのグリフを含まないため、使用可能な漢字グリ�
 
 # バージョン
 
-## Version 3.2.4-Powerline-Early-2016 (22 Aug. 2016)
-
-* Powerline patchedなフォントをまとめた
-
-
-## Version 3.2.4-Powerline (15 Jan. 2016)
-
-* Ricty Diminished Version 3.2.4ベース
-* [powerline/fontpatcher](https://github.com/powerline/fontpatcher.git)をsubmoduleとして追加
-* powerline/fontpatcherを以下のように実行し、Powerlineグリフ埋め込みバージョンを作成
-```
-$ ls RictyDiminished*.ttf | grep -v Powerline | xargs fontpatcher/scripts/powerline-fontpatcher
-```
 
 ## Version 3.2.4-Powerline (11 May. 2015)
 
